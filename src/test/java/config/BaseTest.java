@@ -17,6 +17,6 @@ public class BaseTest {
     @BeforeAll
     public static void beforeAll() {
         RestAssured.filters(withCustomTemplates());
-        RestAssured.baseURI = "https://restful-booker.herokuapp.com/apidoc/";
+        RestAssured.baseURI = "https://reqres.in";
     }
 }
