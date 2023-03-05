@@ -50,14 +50,16 @@ allure {
 
 
 - Для подключения визуальной составляющей Allure указываем Path: build/allure-results. После выполнения сборки нам доступен следующего формата отчет:
-![Allure](https://user-images.githubusercontent.com/81954013/211161438-fee0f0ba-8ad6-4388-9662-d056e10ea9cf.png)
+![Allure](https://user-images.githubusercontent.com/81954013/222976530-7932dbdf-303d-42ca-9de5-e3ed678a410b.png)
+
 
 ### Подключение отчетов о выполнении прохождения тестов в Allure TestOps
 - В настройках Allure TestOps указываем jenkins_agent_service_acc, Project Write
 - В Jenkins в настойках устанавливаем chexbox Allure: upload results
 - В Path прописываем - build/allure-results
 ##### Формат отчета в Allere TestOps:
-![AllureTestOps_1](https://user-images.githubusercontent.com/81954013/211161947-704ebb4f-c68a-4107-b6ed-d84db5b44584.png)
+![AllureTestOps](https://user-images.githubusercontent.com/81954013/222976545-7e5272e2-3100-4976-a25f-385e64501cd5.png)
+
 
 ### Подключение отчетов о выполнении прохождения тестов в Allure TestOps
 - В JIRA создаем новую задачу, поименовываем ее
