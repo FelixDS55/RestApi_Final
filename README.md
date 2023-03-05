@@ -1,5 +1,5 @@
-# otp_bank
-#### Test for Advanced Search Page: https://www.otpbank.ru/ 
+# Rest Api
+#### Test for Advanced Search Page: https://reqres.in/
 #### Технологии и инструменты:
 <p align="center">
 <a href="https://www.jetbrains.com/idea/"><img src="/icons/Intelij_IDEA.png" width="50" height="50"  alt="IDEA"/></a>
