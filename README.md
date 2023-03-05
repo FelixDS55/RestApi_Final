@@ -15,12 +15,15 @@
 
 #### Gradle dependencies:
 ```
-testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1',
-            'com.codeborne:selenide:6.10.3',
-            'io.qameta.allure:allure-selenide:2.20.1',
-            "org.slf4j:slf4j-simple:1.7.32",
-            'com.codeborne:pdf-test:1.5.0',
-            'org.assertj:assertj-core:3.23.1'
+testImplementation 
+            "io.rest-assured:rest-assured:5.3.0",
+            "io.qameta.allure:allure-rest-assured:$allureVersion",
+            "io.qameta.allure:allure-selenide:2.19.0",
+            "org.assertj:assertj-core:$assertJVersion",
+            "com.fasterxml.jackson.core:jackson-databind:2.14.1",
+            "org.junit.jupiter:junit-jupiter:5.9.0",
+            "com.codeborne:selenide:6.9.0",
+            "org.slf4j:slf4j-simple:$slf4jVersion"
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
 ```
 ## Подключение Allure
