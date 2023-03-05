@@ -98,6 +98,7 @@ allure {
   }
 }
 ```
-![Telegram](https://user-images.githubusercontent.com/81954013/211162995-dfe5de97-2582-4fc8-924b-5e5e693071e5.png)
+![Telegram](https://user-images.githubusercontent.com/81954013/222980482-cb25e8e9-63c6-43a8-819d-c064caad9d51.png)
+
 
 
