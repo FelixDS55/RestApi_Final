@@ -66,7 +66,8 @@ allure {
 - В настройках Integrations подключаем Allure Test Ops
 - В Allure Test Ops в меню Test cases выбираем необходимые нам Test cases, Add issues, выбираем наименование нашей задачи в JIRA
 - Переходим в JIRA и получаем отчет следующего вида:
-![JIRA](https://user-images.githubusercontent.com/81954013/211162188-21dbaeab-9a05-42ea-91cf-5dd5120ce06c.png)
+![Jira](https://user-images.githubusercontent.com/81954013/222977581-6dee3906-6d94-4407-8801-03ec9aade463.png)
+
 
 ## Подключение отчетов о выполнении прохождения тестов в телеграм
 #### В телеграм:
