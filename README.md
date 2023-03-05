@@ -46,7 +46,7 @@ allure {
 #### jenkins:
 - Формат сборки в Jenkins: clean test
 - Формат отчета выполнения тестов в jenkins выглядит следующим образом:
-![Jenkins](https://user-images.githubusercontent.com/81954013/211161554-8a30f4e0-a948-41fe-9a9e-32cc3b12e2b7.png)
+- СДЕЛАТЬ СКРИНШОТ!!!!
 
 
 - Для подключения визуальной составляющей Allure указываем Path: build/allure-results. После выполнения сборки нам доступен следующего формата отчет:
