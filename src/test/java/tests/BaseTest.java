@@ -1,21 +1,13 @@
 package tests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
+import config.Config;
 import io.qameta.allure.selenide.AllureSelenide;
-import io.restassured.RestAssured;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 
-import static helpers.CustomApiListener.withCustomTemplates;
-
-public class BaseTest {
+public class BaseTest extends Config {
     @BeforeEach
     void addListener() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
-
-    @BeforeAll
-    public static void beforeAll() {
-        RestAssured.filters(withCustomTemplates());
     }
 }

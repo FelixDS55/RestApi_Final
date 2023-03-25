@@ -1,6 +1,5 @@
 package config;
 
-import io.restassured.RestAssured;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
@@ -30,10 +29,5 @@ public class Spec{
         return new ResponseSpecBuilder()
                 .expectStatusCode(400)
                 .build();
-    }
-
-    public static void installSpecification(RequestSpecification request, ResponseSpecification response){
-        RestAssured.requestSpecification = request;
-        RestAssured.responseSpecification = response;
     }
 }
