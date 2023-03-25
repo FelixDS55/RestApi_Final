@@ -28,6 +28,7 @@ public class LoginTest extends BaseTest {
                 .body("token", is("QpwL5tke4Pnpja7X4"))
                 .extract().as(LoginResponseModel.class);
 
-        assertThat(response.getToken()).isEqualTo("QpwL5tke4Pnpja7X4");
+//        assertThat(response.getToken()).isEqualTo("QpwL5tke4Pnpja7X4");
+        assertThat(response.getToken()).isNotNull();
     }
 }
