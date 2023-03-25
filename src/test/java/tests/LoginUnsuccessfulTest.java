@@ -1,6 +1,5 @@
 package tests;
 
-import config.BaseTest;
 import config.Spec;
 import models.LoginUnsuccessfulRequest;
 import models.LoginUnsuccessfulResponse;

@@ -1,4 +1,4 @@
-package config;
+package tests;
 
 import com.codeborne.selenide.logevents.SelenideLogger;
 import io.qameta.allure.selenide.AllureSelenide;
@@ -17,6 +17,5 @@ public class BaseTest {
     @BeforeAll
     public static void beforeAll() {
         RestAssured.filters(withCustomTemplates());
-        RestAssured.baseURI = "https://reqres.in";
     }
 }

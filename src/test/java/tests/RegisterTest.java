@@ -1,6 +1,5 @@
 package tests;
 
-import config.BaseTest;
 import config.Spec;
 import models.UserRegisterRequest;
 import models.UserRegisterResponse;
